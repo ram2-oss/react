@@ -14,9 +14,19 @@
             const paragraph = <p>world</p>;
 
             const div = <div>{button} {paragraph}</div>;
-
+            const eg = 
+            (
+                <div>
+                    <p> Cotton Spaces 
+                        price: $19.99
+                        <button>add to cart</button>
+                        
+                    </p>
+                
+                </div>
+            );
             const container = document.querySelector('.js-container');
-            ReactDOM.createRoot(container).render(div);
+            ReactDOM.createRoot(container).render(eg);
         </script>
     </body>
 </html>
